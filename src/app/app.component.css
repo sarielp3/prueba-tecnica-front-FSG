@@ -1,0 +1,69 @@
+.dataTables_filter {
+  display: none !important;
+}
+
+#filtroNombre{
+  display: flex;
+  justify-content: center; /* Centra el contenido verticalmente */
+  align-items: center;     /* Centra el contenido horizontalmente */
+  margin: auto;
+}
+
+h4{
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.barra{
+  height: 70px;
+  background-color: rgb(0, 213, 255);
+  margin-bottom: 20px;
+  display: flex;             /* Usamos flexbox para alinear el contenido */
+  justify-content: left;   /* Centra el contenido horizontalmente */
+  align-items: center; 
+}
+
+.tema{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;                /* Quita el margen por defecto del <p> */
+  margin-left: 20px;
+  
+}
+
+.input-filtro {
+  padding: 12px 20px;          /* Espaciado interno para que se vea más grande y cómodo */
+  font-size: 16px;             /* Tamaño de texto */
+  border-radius: 8px;         /* Bordes redondeados */
+  border: 2px solid #ccc;     /* Borde gris claro */
+  outline: none;              /* Elimina el contorno por defecto del input */
+  background-color: #f7f7f7;  /* Fondo gris claro */
+  width: 100%;                 /* Asegura que ocupe todo el ancho disponible */
+  max-width: 400px;            /* Limita el ancho máximo */
+  transition: all 0.3s ease;   /* Transición suave al interactuar con el campo */
+  margin: 30px;
+  color: black;
+}
+
+.input-filtro:focus {
+  border-color: #00d5ff;       /* Cambia el borde a un color brillante cuando está enfocado */
+  box-shadow: 0 0 8px rgba(0, 213, 255, 0.7); /* Añade una sombra suave para resaltar el input */
+  background-color: #fff;     /* Fondo blanco cuando está enfocado */
+}
+
+.input-filtro::placeholder {
+  color: #999;                /* Color del texto del placeholder */
+  font-style: italic;          /* Estilo itálico para el texto del placeholder */
+}
+
+.search-icon{
+  left: 47px;
+  color: black;
+  font-size: 20px;
+}
+
+.btn-tema{
+  color: white;
+}

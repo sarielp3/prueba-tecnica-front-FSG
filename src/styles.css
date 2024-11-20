@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+select {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Selector en modo oscuro */
+  .dark-mode select {
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #555555;
+  }

@@ -1,0 +1,31 @@
+<div class="barra"> 
+  <p class="tema">Prueba Tecnica Front-End FOUR SIDES GROUP</p>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; position: relative;">
+  <h2 style="margin: 0; position: absolute; left: 50%; transform: translateX(-50%);">Usuarios</h2>
+  <button style="margin-left: auto; margin-right: 17px;" (click)="toggleTheme()" class="btn btn-info btn-tema">Cambiar Tema <i class="bi bi-highlights"></i></button>
+  
+</div>
+
+
+<div id="filtroNombre" >
+    <h4>Filtrar Por Nombre: </h4>
+  <div class="search-input position-relative">
+  <input class="input-filtro form-control form-control-lg ps-5"
+    type="search"
+    placeholder="Victor Hugo Ac..."
+    (input)="filtrarPorNombre($event)"
+  />
+  <i class="bi bi-search position-absolute top-50 translate-middle-y search-icon"></i>
+  </div>
+  
+</div>
+
+<hr style="border: 1px solid #333;">
+
+<div class="container">
+<table id="miDataTable" class="display" style="width:100%">
+  <!-- La DataTable se inicializará aquí -->
+</table>
+</div>

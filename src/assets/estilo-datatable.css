@@ -1,0 +1,25 @@
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  background-color: #007bff;
+  /* Color de fondo */
+  color: white;
+  /* Color del texto */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  padding: 5px 10px;
+  /* Espaciado interno */
+  margin: 0 5px;
+  /* Espaciado entre botones */
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background-color: #0056b3;
+  /* Color de fondo al pasar el ratón */
+  color: white;
+  cursor: pointer;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:disabled {
+  background-color: #e0e0e0;
+  /* Fondo de los botones deshabilitados */
+  color: #b0b0b0;
+}
